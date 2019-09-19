@@ -85,6 +85,11 @@ end
 	puts "[+] Site analysé: ".red + "#{option}".blue.underline.bold.italic
 	puts "[+] IP CloudFlar: ".red + "#{ip_real}".blue.underline.bold.italic
 	puts "[+] Vraie IP: ".red + "#{regex}".blue.underline.bold.italic
+	if IsDown.is_down?(option)
+		puts "[+] Status: ".red + "Hors-ligne".blue.underline.bold.italic
+	else
+		puts "[+] Status: ".red + "En ligne".blue.underline.bold.italic
+	end
 	target = "http://ipinfo.io/#{regex}/json"
 	url = URI(target).read
 	json = JSON.parse(url)
@@ -94,10 +99,5 @@ end
 	puts "[+] Ville: ".red  + json['city'].blue.underline.bold.italic
 	puts "[+] Localisation: ".red + json['loc'].blue.underline.bold.italic
 	puts "[+] Organisation:".red + json['org'].blue.underline.bold.italic
-	down = IsDown.is_down?("#{option}")
-	if IsDown.is_down?(option)
-		puts "[+] Status: ".red + "Hors-ligne".blue.underline.bold.italic
-	else
-		puts "[+] Status: ".red + "En ligne".blue.underline.bold.italic
-	end
+	
 end
