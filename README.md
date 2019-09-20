@@ -14,7 +14,7 @@ Version: 1.0
 <strong>ruby cloudf.rb -h ou --help </strong><br />
 <strong>ruby cloudf.rb -b votre site </strong> <br />
 ou<br />
-<strong>ruby cloudf.rb --byp your site </strong><br />
+<strong>ruby cloudf.rb --byp votre site </strong><br />
 
 
 #Screenshot
