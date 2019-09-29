@@ -85,7 +85,7 @@ end
 	ip_real = IPSocket.getaddress (options[:bypass])
 
 	puts "[+] Site analysé: ".red + "#{option}".blue.underline.bold.italic
-	puts "[+] IP CloudFlar: ".red + "#{ip_real}".blue.underline.bold.italic
+	puts "[+] IP CloudFlare: ".red + "#{ip_real}".blue.underline.bold.italic
 	puts "[+] Vraie IP: ".red + "#{regex}".blue.underline.bold.italic
 	if IsDown.is_down?(option)
 		puts "[+] Status: ".red + "Hors-ligne".blue.underline.bold.italic
