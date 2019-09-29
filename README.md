@@ -1,5 +1,3 @@
-[Repo Original](https://github.com/HatBashBR/HatCloud)
-
 # CLOUD-F
 
 cloudf construit en Ruby. Il fait le bypass dans CloudFlare pour découvrir l'IP réelle.
