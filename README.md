@@ -17,4 +17,4 @@ ou<br />
 
 #Screenshot
 
-<img src="https://i.imgur.com/UDjO6KL.png"> <br />
+<img src="https://i.imgur.com/7tX9qMK.png"> <br />
