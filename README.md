@@ -6,7 +6,12 @@ CloudFlare est un service et un serveur de noms de domaine distribué, situé en
 Votre réseau protège, accélère et améliore la disponibilité d'un site Web ou d'une application mobile avec un changement DNS. 
 
 
-Version: 1.0
+# Modules
+
+gem install is_down
+gem install json
+
+# Version: 1.0
 
 <em>Utilisation:</em>
 <strong>ruby cloudf.rb -h ou --help </strong><br />
@@ -15,6 +20,6 @@ ou<br />
 <strong>ruby cloudf.rb --byp votre site </strong><br />
 
 
-#Screenshot
+# Screenshot
 
 <img src="https://i.imgur.com/7tX9qMK.png"> <br />
