@@ -61,7 +61,7 @@ parser.parse!
 banner()
 
 if options[:bypass].nil?
-    puts "URL -b or --byp"
+    puts "URL -b ou --byp"
 else
 	begin
 	option = options[:bypass]
