@@ -32,7 +32,7 @@ puts "====================================================".blue
 
 
 puts "Identifie l'IP réelle d'un site Web protégé par CloudFlare.".green
-puts "https://github.com/Dany-LF".green
+puts "https://github.com/HideakiAtsuyo".green
 puts "Origine: https://github.com/HatBashBR/HatCloud".green
 
 
